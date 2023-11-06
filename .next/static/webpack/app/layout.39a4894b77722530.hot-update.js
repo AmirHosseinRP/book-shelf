@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/layout",{
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Famirhossein%2FProgaramming%2Fbook-shelf%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Famirhossein%2FProgaramming%2Fbook-shelf%2Fsrc%2Fshared%2Fassets%2Fglobals.css&server=false!":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Famirhossein%2FProgaramming%2Fbook-shelf%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Famirhossein%2FProgaramming%2Fbook-shelf%2Fsrc%2Fshared%2Fassets%2Fglobals.css&server=false! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(app-pages-browser)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/shared/assets/globals.css */ \"(app-pages-browser)/./src/shared/assets/globals.css\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lMkZVc2VycyUyRmFtaXJob3NzZWluJTJGUHJvZ2FyYW1taW5nJTJGYm9vay1zaGVsZiUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZmb250JTJGZ29vZ2xlJTJGdGFyZ2V0LmNzcyUzRiU3QiUyMnBhdGglMjIlM0ElMjJzcmMlMkZhcHAlMkZsYXlvdXQudHN4JTIyJTJDJTIyaW1wb3J0JTIyJTNBJTIySW50ZXIlMjIlMkMlMjJhcmd1bWVudHMlMjIlM0ElNUIlN0IlMjJzdWJzZXRzJTIyJTNBJTVCJTIybGF0aW4lMjIlNUQlN0QlNUQlMkMlMjJ2YXJpYWJsZU5hbWUlMjIlM0ElMjJpbnRlciUyMiU3RCZtb2R1bGVzPSUyRlVzZXJzJTJGYW1pcmhvc3NlaW4lMkZQcm9nYXJhbW1pbmclMkZib29rLXNoZWxmJTJGc3JjJTJGc2hhcmVkJTJGYXNzZXRzJTJGZ2xvYmFscy5jc3Mmc2VydmVyPWZhbHNlISIsIm1hcHBpbmdzIjoiQUFBQSwwYkFBb1A7QUFDcFAiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz80ZjgxIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL2FtaXJob3NzZWluL1Byb2dhcmFtbWluZy9ib29rLXNoZWxmL25vZGVfbW9kdWxlcy9uZXh0L2ZvbnQvZ29vZ2xlL3RhcmdldC5jc3M/e1xcXCJwYXRoXFxcIjpcXFwic3JjL2FwcC9sYXlvdXQudHN4XFxcIixcXFwiaW1wb3J0XFxcIjpcXFwiSW50ZXJcXFwiLFxcXCJhcmd1bWVudHNcXFwiOlt7XFxcInN1YnNldHNcXFwiOltcXFwibGF0aW5cXFwiXX1dLFxcXCJ2YXJpYWJsZU5hbWVcXFwiOlxcXCJpbnRlclxcXCJ9XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvYW1pcmhvc3NlaW4vUHJvZ2FyYW1taW5nL2Jvb2stc2hlbGYvc3JjL3NoYXJlZC9hc3NldHMvZ2xvYmFscy5jc3NcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Famirhossein%2FProgaramming%2Fbook-shelf%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Famirhossein%2FProgaramming%2Fbook-shelf%2Fsrc%2Fshared%2Fassets%2Fglobals.css&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./src/shared/assets/globals.css":
+/*!***************************************!*\
+  !*** ./src/shared/assets/globals.css ***!
+  \***************************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"8185f0609ba8\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9zaGFyZWQvYXNzZXRzL2dsb2JhbHMuY3NzIiwibWFwcGluZ3MiOiI7QUFBQSwrREFBZSxjQUFjO0FBQzdCLElBQUksSUFBVSxJQUFJLGlCQUFpQiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvc2hhcmVkL2Fzc2V0cy9nbG9iYWxzLmNzcz9mYmEzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiODE4NWYwNjA5YmE4XCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/shared/assets/globals.css\n"));
+
+/***/ })
+
+});

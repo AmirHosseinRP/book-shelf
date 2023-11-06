@@ -10,13 +10,18 @@
     "lint:format": "next lint --fix"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "next": "14.0.1",
     "prettier": "^3.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/node": "^20",
