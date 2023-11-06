@@ -1,12 +1,13 @@
+import "@/shared/assets/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "@/shared/assets/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Book Shelf",
-  description: "Next.js web application for all your books at one place",
+  description:
+    "Next.js web application for all your books at one place, my name is Amirhossein Rezapanah, Mashhad - Iran",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

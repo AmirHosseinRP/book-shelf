@@ -126,7 +126,9 @@ export default function Home() {
         sx={{ backgroundColor: "#f5f5f5", display: "flex", justifyContent: "center", alignItems: "center" }}
       >
         <Toolbar>
-          <Typography variant="body2">&copy; {new Date().getFullYear()} Amirhossein Rezapanh</Typography>
+          <Typography variant="body2">
+            &copy; {new Date().getFullYear()} Amirhossein Rezapanah, Mashhad - Iran
+          </Typography>
         </Toolbar>
       </AppBar>
     </>
