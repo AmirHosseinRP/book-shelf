@@ -75,90 +75,93 @@ const BookList = (props: Props) => {
   if (error) return <div>Failed to load</div>;
   if (!data) return <div>Loading...</div>;
   return (
-    <div className="w-full">
-      <Button variant="outlined" color="success" onClick={handleOpen} className="!mb-3">
-        Add a new Book
-      </Button>
-      <TableContainer component={Paper}>
-        <Table aria-label="simple table">
-          <TableHead>
-            <TableRow>
-              <TableCell>ID</TableCell>
-              <TableCell align="left">Name</TableCell>
-              <TableCell align="left">Author</TableCell>
-              <TableCell align="left">Link</TableCell>
-              <TableCell align="right">Delete</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {rows &&
-              rows.map((row, index) => (
-                <>
-                  <TableRow key={index} sx={{ "&:last-child td, &:last-child th": { border: 0 } }}>
-                    <TableCell component="th" scope="row">
-                      {index + 1}
-                    </TableCell>
-                    <TableCell align="left">{row.name}</TableCell>
-                    <TableCell align="left">{row.author}</TableCell>
-                    <TableCell align="left">
-                      <Link href={row.link} target="_blank">
-                        <Button className="!text-left">Go to {row.name} in GoodReads</Button>
-                      </Link>
-                    </TableCell>
-                    <TableCell align="right">
-                      <IconButton color="error" onClick={() => handleDelete(row.name)}>
-                        <DeleteIcon />
-                      </IconButton>
-                    </TableCell>
-                  </TableRow>
-                </>
-              ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-      <Modal
-        open={openModal}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2" className="!mb-3">
-            Add a new Book:
-          </Typography>
-          <TextField
-            className="!mb-5"
-            fullWidth
-            id="book-name"
-            label="Book Name"
-            variant="outlined"
-            onChange={e => setBookName(e.target.value)}
-            size="small"
-          />
-          <TextField
-            className="!mb-5"
-            fullWidth
-            id="book-author"
-            label="Book Author"
-            variant="outlined"
-            onChange={e => setBookAuthor(e.target.value)}
-            size="small"
-          />
-          <TextField
-            className="!mb-5"
-            fullWidth
-            id="link"
-            label="Goodreads Link"
-            variant="outlined"
-            onChange={e => setBookLink(e.target.value)}
-            size="small"
-          />
-          <Button variant="outlined" color="success" onClick={handleAdd}>
-            Add a new Book
-          </Button>
-        </Box>
-      </Modal>
-    </div>
+    <>
+      <div className="absolute top-0 w-screen h-screen bg-gradient-to-r from-white to-[#c0c7ff]" />
+      <div className="w-full z-10 relative top-10">
+        <Button variant="outlined" color="success" onClick={handleOpen} className="!mb-3">
+          Add a new Book
+        </Button>
+        <TableContainer component={Paper}>
+          <Table aria-label="simple table">
+            <TableHead>
+              <TableRow>
+                <TableCell>ID</TableCell>
+                <TableCell align="left">Name</TableCell>
+                <TableCell align="left">Author</TableCell>
+                <TableCell align="left">Link</TableCell>
+                <TableCell align="right">Delete</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {rows &&
+                rows.map((row, index) => (
+                  <>
+                    <TableRow key={index} sx={{ "&:last-child td, &:last-child th": { border: 0 } }}>
+                      <TableCell component="th" scope="row">
+                        {index + 1}
+                      </TableCell>
+                      <TableCell align="left">{row.name}</TableCell>
+                      <TableCell align="left">{row.author}</TableCell>
+                      <TableCell align="left">
+                        <Link href={row.link} target="_blank">
+                          <Button className="!text-left">Go to {row.name} in GoodReads</Button>
+                        </Link>
+                      </TableCell>
+                      <TableCell align="right">
+                        <IconButton color="error" onClick={() => handleDelete(row.name)}>
+                          <DeleteIcon />
+                        </IconButton>
+                      </TableCell>
+                    </TableRow>
+                  </>
+                ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+        <Modal
+          open={openModal}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <Typography id="modal-modal-title" variant="h6" component="h2" className="!mb-3">
+              Add a new Book:
+            </Typography>
+            <TextField
+              className="!mb-5"
+              fullWidth
+              id="book-name"
+              label="Book Name"
+              variant="outlined"
+              onChange={e => setBookName(e.target.value)}
+              size="small"
+            />
+            <TextField
+              className="!mb-5"
+              fullWidth
+              id="book-author"
+              label="Book Author"
+              variant="outlined"
+              onChange={e => setBookAuthor(e.target.value)}
+              size="small"
+            />
+            <TextField
+              className="!mb-5"
+              fullWidth
+              id="link"
+              label="Goodreads Link"
+              variant="outlined"
+              onChange={e => setBookLink(e.target.value)}
+              size="small"
+            />
+            <Button variant="outlined" color="success" onClick={handleAdd}>
+              Add a new Book
+            </Button>
+          </Box>
+        </Modal>
+      </div>
+    </>
   );
 };
 
